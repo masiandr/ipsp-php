@@ -413,10 +413,6 @@
 })(jQuery);
 
 (function ($) {
-    $('.page-content').append($.ejs('/user').render({}));
-})(jQuery);
-
-(function ($) {
     $.trackEvent = function (category, action, label, fieldObject) {
         if (typeof(window['ga']) !== 'function') return;
         ga('send', 'event', category, action, label, fieldObject || {});

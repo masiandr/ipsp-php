@@ -7,7 +7,7 @@ gems:
 markdown: kramdown
 # Setup
 title:   IPSP PHP SDK
-tagline: Start e-commerce on your website.
+tagline: This project is no longer maintained
 baseurl:
 url:  https://ipsp-php.com
 
@@ -19,9 +19,6 @@ banner:
   image: /assets/images/brand.svg
 
 styles:
-  - //maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
-  - //fonts.googleapis.com/css?family=Open+Sans:300,400,700
-  - //fonts.googleapis.com/css?family=Pacifico
   - /assets/css/ipsp.css?v1.0.27
 
 javascript:
@@ -32,10 +29,6 @@ javascript:
   - /assets/js/ipsp.js?v1.0.27
 
 toolbar:
--
-  name: Join Now
-  link: /activation/signup.html
-  class: btn-signup
 -
   name: About
   link: /sdk/
@@ -89,41 +82,7 @@ defaults:
   - scope:
       path: ""
     values:
-      sharethis: property=59673d0357e5f5001295d00c&product=sticky-share-buttons
       image:
         path:  /assets/images/cover.jpg
         height: 1200
         width: 444
-  -
-    scope:
-        path: ""
-        type: "posts"
-    values:
-        categories:
-        description:
-        headline: ""
-        tagline: ""
-        layout : "default"
-        comments: true
-        permalink: /:categories/:title.html
-  -
-    scope:
-        path: "docs"
-        type: "pages"
-    values:
-        headline: "SDK Docs"
-        tagline: "Ipsp Developer Documentation"
-  -
-    scope:
-        path: "examples"
-        type: "pages"
-    values:
-        headline: "Showcase"
-        tagline: "Browse the showcase to see some of our favorite implementations"
-  -
-    scope:
-        path: "modules"
-        type: "pages"
-    values:
-        headline: "Components & Helpers"
-        tagline: "Useful components for checkout development"
